@@ -52,4 +52,5 @@ class ApplicationManifest < Moonshine::Manifest::Rails
   # The following line includes the 'application_packages' recipe defined above
   recipe :application_packages
 	recipe :mongodb
+	recipe :nodejs
 end
