@@ -12,3 +12,4 @@ test/coverage
 log/*.log*
 capybara*
 .DS_Store
+config/mongo.yml

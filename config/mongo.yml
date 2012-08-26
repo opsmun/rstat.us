@@ -10,9 +10,8 @@ test:
   <<: *defaults
   database: rstatus-test
 
-# set these environment variables on your prod server
 production:
   <<: *defaults
-  database: <%= ENV['MONGOHQ_DATABASE'] %>
-  uri: <%= ENV['MONGOHQ_URL'] %>
-
+  database: rstatus-prod
+  username: rstatus
+  password: eiTh3aeJ{aeTha
